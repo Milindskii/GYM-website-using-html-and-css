@@ -1,0 +1,112 @@
+/* === Base Body Styling === */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('../images/gym\ image\ 1.avif') no-repeat center center fixed;
+    background-size: cover;
+    zoom: 80%; /* Optional: Remove for mobile responsiveness */
+}
+
+/* === Left Logo Section === */
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+}
+
+.left div {
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* === Center Navigation Section === */
+.mid {
+    display: block;
+    width: 40%;
+    margin: 30px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 12px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: red;
+}
+
+/* === Right Button Section === */
+.right {
+    position: absolute;
+    right: 34px;
+    top: 40px;
+    display: inline-block;
+}
+
+/* === Generic Button Styling === */
+.btn {
+    margin: 0 9px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* === Hero Text Container === */
+.container {
+    display: block;
+    width: 600px;
+    padding: 5px;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+/* === Large Action Button === */
+.button {
+    width: 50%;
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50%;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}

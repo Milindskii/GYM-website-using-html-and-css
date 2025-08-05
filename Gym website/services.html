@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0 20px;
+    }
+
+    h1.container {
+      text-align: center;
+      font-size: 3.5rem;
+      margin-top: 40px;
+    }
+
+    p.container1 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 10px 0 40px;
+    }
+
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .service-card {
+      background-color: #292929;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 300px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      font-size: 1rem;
+    }
+
+    .service-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+      margin: 0 auto 50px;
+    }
+
+    @media (max-width: 768px) {
+      h1.container {
+        font-size: 2.5rem;
+      }
+
+      .service-card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="container">OUR SERVICES</h1>
+
+  <p class="container1">
+    Discover the wide range of fitness and wellness services we offer to help
+    you reach your goals.
+  </p>
+
+  <div class="services-container">
+    <div class="service-card">
+      <h2>Personal Training</h2>
+      <p>One-on-one training sessions with certified trainers customized to your goals.</p>
+    </div>
+
+    <div class="service-card">
+      <h2>Group Classes</h2>
+      <p>Join energetic group sessions like Zumba, HIIT, Yoga, and more.</p>
+    </div>
+
+    <div class="service-card">
+      <h2>Nutrition Plans</h2>
+      <p>Get personalized diet and nutrition guidance from certified experts.</p>
+    </div>
+
+    <div class="service-card">
+      <h2>Body Assessment</h2>
+      <p>Track your progress with detailed body composition and fitness assessments.</p>
+    </div>
+  </div>
+
+  <!-- 🖼 Replace with correct image extension and filename -->
+  <img 
+    class="service-image" 
+    src="./static/images/gym image 4.avif" 
+    alt="Our gym services"
+    onerror="this.onerror=null; this.src='./static/images/placeholder.jpg';"
+  />
+</body>
+</html>

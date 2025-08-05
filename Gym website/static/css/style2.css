@@ -1,0 +1,48 @@
+/* === Global Styles === */
+body {
+    background-color: #1a1a1a;  /* Dark background */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Container / Headings === */
+.container {
+    text-align: center;
+    font-size: 40px;
+}
+
+.about1, .about2, .our-mission, .why-choose-us {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* === Image Positioning === */
+.img1 {
+    margin-top: -300px;     /* Moves image up */
+    position: relative;     /* Allows left/right positioning */
+    left: 100px;            /* Moves image to the right */
+}
+
+.img2 {
+    position: relative;
+    left: 1150px;           /* Far right */
+    top: -260px;            /* Moves image up */
+}
+
+/* === List Container Centering === */
+.list-container {
+    display: flex;
+    justify-content: center;  /* Horizontally center the list */
+}
+
+.centered-list {
+    list-style-position: inside;  /* Align bullets with text */
+    text-align: left;
+}
+
+/* === Additional About Section Styling === */
+.about2 {
+    margin-top: -230px; /* Pulls section upward (not ideal for responsive design) */
+}

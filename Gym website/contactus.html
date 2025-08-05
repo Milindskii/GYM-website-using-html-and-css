@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .content {
+      max-width: 90%;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    a.email-link {
+      color: #00aaff;
+      font-size: 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+      transition: color 0.3s ease;
+    }
+
+    a.email-link:hover {
+      text-decoration: underline;
+      color: #33ccff;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      a.email-link {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Contact Us</h1>
+    <p>Email:</p>
+    <a class="email-link" href="mailto:milindski@gmail.com" aria-label="Send an email to milindski@gmail.com">
+      milindski@gmail.com
+    </a>
+  </div>
+</body>
+</html>
